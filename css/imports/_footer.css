@@ -45,14 +45,6 @@ footer {
   }
 }
 
-iconify-icon {
-  transition: .3s;
-}
-
-.icon-link:hover iconify-icon {
-  transform: scale(1.2);
-}
-
 .newsletter-signup {
 
   & h4 {

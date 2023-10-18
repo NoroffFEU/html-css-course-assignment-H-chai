@@ -12,4 +12,5 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-roboto);
+  color: var(--font-bg-black);
 }

@@ -72,6 +72,14 @@ header {
   background-color: #191C1E;
 }
 
+iconify-icon {
+  transition: .3s;
+}
+
+.icon-link:hover iconify-icon {
+  transform: scale(1.2);
+}
+
 .responsive-menu {
   display: none;
 }
