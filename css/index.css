@@ -5,6 +5,7 @@
 @import "imports/_product.css";
 @import "imports/_about.css";
 @import "imports/_aqua-shield.css";
+@import "imports/_checkout-success.css";
 
 .main-visual {
   height: 80vh;
