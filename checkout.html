@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 </head>
 <body>
-  <header>
+  <header class="bg-color">
     <a href="index.html"><img src="image/RainyDays_Logo.png" alt="logo of rainy days" class="rainydays-logo"></a>
     <div class="header-menu-wrapper">
       <nav>
@@ -80,7 +80,106 @@
     
   </header>
 
-  <main>
+  <main class="bg-color checkout-main">
+    <div class="process-bar">
+      <div class="process-step">
+        <p class="number on-number">1</p>
+        <p class="step on-step">shipping</p>
+      </div>
+      <div class="line"></div>
+      <div class="process-step">
+        <p class="number">2</p>
+        <p class="step">payment</p>
+      </div>
+      <div class="line"></div>
+      <div class="process-step">
+        <p class="number">3</p>
+        <p class="step">order review</p>
+      </div>
+    </div>
+
+    <section class="checkout-container">
+      <div class="input-wrapper">
+        <div class="shipping-address">
+          <h2>shipping address</h2>
+          <form>
+            <div class="customer-name">
+              <input type="text" name="firtstname" placeholder="First name">
+              <input type="text" name="lastname" placeholder="Last name">
+            </div>
+            <input type="text" name="address" placeholder="Street address" class="input-max-width">
+            <input type="text" name="building" placeholder="Apartment, suite, unit etc (optional)" class="input-max-width">
+            <div class="postcode-city">
+              <input type="number" name="postcode" placeholder="Post code">
+              <input type="text" name="city" placeholder="City">
+            </div>
+            <input type="text" name="email" placeholder="E-mail" class="input-max-width">
+            <input type="number" name="phone" placeholder="Phone" class="input-max-width">
+          </form>
+        </div>
+        <div class="payment-wrapper">
+          <h2>payment method</h2>
+          <div class="payment-option">
+            <div class="payment-method">
+              <input type="radio" id="radio01" name="radio-button">
+              <label for="radio01">PayPal</label>
+              <p>You will be redirected to the PayPal website after submitting your order</p>
+            </div>
+            <div class="option-logo">
+              <img src="image/PayPal.svg" alt="PayPal logo">
+            </div>
+          </div>
+          <div class="payment-option">
+            <div class="payment-method">
+              <input type="radio" id="radio02" name="radio-button">
+              <label for="radio02">Credit Card</label>
+            </div>
+            <div class="option-logo">
+              <img src="image/Visa.svg" alt="Visa logo">
+              <img src="image/Mastercard.svg" alt="Master card logo">
+              <img src="image/Discover.svg" alt="Discover logo">
+              <img src="image/Amex.svg" alt="Amex logo">
+            </div>
+          </div>
+          <div class="payment-option">
+            <div class="payment-method">
+              <input type="radio" id="radio03" name="radio-button">
+              <label for="radio03">Google Pay</label>
+            </div>
+            <div class="option-logo">
+              <img src="image/GooglePay.svg" alt="GooglePay logo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-summary-cta">
+        <div class="cart-summary">
+          <h2>Cart summary</h2>
+          <div class="cart-product">
+            <div class="cart-detail">
+              <img src="image/Aqua-Shield.png" alt="Aqua Shield">
+              <div class="quantity">
+                <p>Aqua Shield × 1</p>
+                <p>Size: <span>S</span></p>
+              </div>
+            </div>
+            <p class="cart-item-price">$110.00</p>
+          </div>
+          <div class="subtotal">
+            <p>Subtotal</p>
+            <p>$110.00</p>
+          </div>
+          <div class="total">
+            <p>Total</p>
+            <p>$110.00</p>
+          </div>
+        </div>
+        <a href="checkout-success.html" class="cta-link-purchase">
+          <button class="cta purchase-cta">complete order</button>
+        </a>
+      </div>
+      
+    </section>
 
   </main>
 
