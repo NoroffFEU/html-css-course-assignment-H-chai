@@ -10,12 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- reset.css ress -->
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    
   </head>
   <body>
+    <div id="loading">
+      <div class="lds-dual-ring"></div>
+    </div>
+
     <header>
-      <a href="index.html"><img src="image/RainyDays_Logo.png" alt="logo of rainy days" class="rainydays-logo"></a>
+      <a href="index.html"><img src="image/RainyDays_Logo.png" alt="logo of rainy days" class="rainydays-logo" title="Jump to Home"></a>
       <div class="header-menu-wrapper">
         <nav>
           <ul class="nav-menu">
@@ -27,16 +30,16 @@
         </nav>
         <ul class="nav-menu">
           <li class="icon-menu-list">
-            <a href="#" class="icon-link"><iconify-icon icon="iconamoon:search-bold" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
+            <a href="#" class="icon-link" aria-label="Search"><iconify-icon icon="iconamoon:search-bold" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
           </li>
           <li class="icon-menu-list">
-            <a href="#" class="icon-link"><iconify-icon icon="charm:person" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
+            <a href="#" class="icon-link" aria-label="Log in my page"><iconify-icon icon="charm:person" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
           </li>
           <li class="icon-menu-list">
-            <a href="#" class="icon-link"><iconify-icon icon="ph:heart-bold" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
+            <a href="#" class="icon-link" aria-label="Wish list"><iconify-icon icon="ph:heart-bold" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
           </li>
           <li class="icon-menu-list">
-            <a href="checkout.html" class="icon-link"><iconify-icon icon="heroicons-outline:shopping-bag" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
+            <a href="checkout.html" class="icon-link" aria-label="Shopping cart"><iconify-icon icon="heroicons-outline:shopping-bag" style="color: #1a1c1e;" width="16" height="16"></iconify-icon></a>
           </li>
         </ul>
       </div>
@@ -125,7 +128,7 @@
 
     <footer>
       <div class="footer-container">
-        <a href="index.html" class="footer-logo-desktop"><img src="image/footer-logo.png" alt="logo of rainy days" class="rainydays-logo"></a>
+        <a href="index.html" class="footer-logo-desktop"><img src="image/footer-logo.png" alt="logo of rainy days" class="rainydays-logo" title="Jump to Home"></a>
         <div class="footer-links">
           <nav>
             <ul class="footer-nav-menu">
@@ -139,16 +142,16 @@
             <p>Follow us</p>
             <ul class="sns-list">
               <li>
-                <a href="#" class="icon-link"><iconify-icon icon="mdi:instagram" style="color: white;" width="16" height="16"></iconify-icon></a>
+                <a href="#" class="icon-link" aria-label="Instagram"><iconify-icon icon="mdi:instagram" style="color: white;" width="16" height="16"></iconify-icon></a>
               </li>
               <li>
-                <a href="#" class="icon-link"><iconify-icon icon="mdi:youtube" style="color: white;" width="16" height="16"></iconify-icon></a>
+                <a href="#" class="icon-link" aria-label="Youtube"><iconify-icon icon="mdi:youtube" style="color: white;" width="16" height="16"></iconify-icon></a>
               </li>
               <li>
-                <a href="#" class="icon-link"><iconify-icon icon="ic:baseline-tiktok" style="color: white;" width="16" height="16"></iconify-icon></a>
+                <a href="#" class="icon-link" aria-label="Tik Tok"><iconify-icon icon="ic:baseline-tiktok" style="color: white;" width="16" height="16"></iconify-icon></a>
               </li>
               <li>
-                <a href="#" class="icon-link"><iconify-icon icon="mdi:twitter" style="color: white;" width="16" height="16"></iconify-icon></a>
+               <a href="#" class="icon-link" aria-label="Twitter"><iconify-icon icon="mdi:twitter" style="color: white;" width="16" height="16"></iconify-icon></a>
               </li>
             </ul>
           </div>
@@ -164,5 +167,11 @@
     </footer>
   
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script>
+    window.onload = function () {
+      const spinner = document.getElementById('loading');
+      spinner.classList.add('loaded');
+    }
+  </script>
   </body>
 </html>
