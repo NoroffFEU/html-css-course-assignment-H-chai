@@ -1,14 +1,14 @@
 @import "imports/ress.css";
-@import "imports/_variables.css";
-@import "imports/_loading.css";
+@import "imports/variables.css";
+@import "imports/loading.css";
 @import "imports/header.css";
-@import "imports/_footer.css";
-@import "imports/_contact.css";
-@import "imports/_product.css";
-@import "imports/_about.css";
-@import "imports/_aqua-shield.css";
-@import "imports/_checkout.css";
-@import "imports/_checkout-success.css";
+@import "imports/footer.css";
+@import "imports/contact.css";
+@import "imports/product.css";
+@import "imports/about.css";
+@import "imports/aqua-shield.css";
+@import "imports/checkout.css";
+@import "imports/checkout-success.css";
 
 .main-visual {
   height: 80vh;
