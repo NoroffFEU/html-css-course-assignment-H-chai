@@ -2,7 +2,7 @@
 
 ![Main visual image for the project 'Rainy Days'](image/README-image.png)
 
-[Visit the site 'Rainy Days'](https://norofffeu.github.io/html-css-course-assignment-Hikari/)
+[Visit the site](https://norofffeu.github.io/html-css-course-assignment-Hikari/)
 
 ## Description
 
@@ -19,6 +19,14 @@ To apply everything I've learned about HTML and CSS in the Front-end Development
 - The website should be responsive and look good at every screen size with no horizontal scrollbars.
 - Each page should have a unique 'meta name="description"', 'title', 'h1'.
 - The site should be WCAG compliant, and accessibility should be taken into account.
+
+#### Client
+
+An online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enrich people's lives.
+
+- Slogan: "Pushing the Comfort Zone"
+- Target: Men and women aged 30 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing
+- Unique selling points: The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure they go on.
 
 ## Built with
 
