@@ -1,14 +1,16 @@
 # Cross-Course Project (Design, HTML & CSS)
 
-![image](image/README-image.png)
+![Main visual image for the project 'Rainy Days'](image/README-image.png)
 
 ## Description
 
 To put into practice everything I’ve learned about HTML and CSS over the course by bringing my design alive.
 
-- List item 1
-- List item 2
-- List item 3
+- The HTML should be semantic, neatly formatted and valid.
+- The CSS should follow the DRY principle and be easy to read.
+- The website should be responsive and look good at every screen size with no horizontal scrollbars.
+- The site should be WCAG compliant, and accessibility should be taken into account.
+- Each page should have a unique <meta name="description">, <title>, and <h1>.
 
 ## Built With
 
