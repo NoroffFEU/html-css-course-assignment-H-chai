@@ -4,7 +4,10 @@
 
 ## Description
 
+Goal:
 To put into practice everything I’ve learned about HTML and CSS over the course by bringing my design alive.
+
+Brief:
 
 - The HTML should be semantic, neatly formatted and valid.
 - The CSS should follow the DRY principle and be easy to read.
