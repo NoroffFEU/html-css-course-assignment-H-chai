@@ -2,11 +2,15 @@
 
 ![Main visual image for the project 'Rainy Days'](image/README-image.png)
 
+[Visit the site 'Rainy Days'](https://norofffeu.github.io/html-css-course-assignment-Hikari/)
+
 ## Description
+
+This is a fictional website for my project.
 
 ### Goal:
 
-To put into practice everything I’ve learned about HTML and CSS over the course by bringing my design alive.
+To apply everything I've learned about HTML and CSS in the Front-end Development course at Noroff by bringing the design I created for the Design course assignment alive.
 
 ### Brief:
 
@@ -16,4 +20,7 @@ To put into practice everything I’ve learned about HTML and CSS over the cours
 - Each page should have a unique 'meta name="description"', 'title', 'h1'.
 - The site should be WCAG compliant, and accessibility should be taken into account.
 
-## test
+## Built with
+
+- HTML
+- CSS
