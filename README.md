@@ -54,3 +54,7 @@ To run the app, run the following commands:
 ```bash
 npm run start
 ```
+
+## Contact
+
+[My LinkedIn Page](https://www.linkedin.com/in/hikari-%C3%B8verby-957493241)
