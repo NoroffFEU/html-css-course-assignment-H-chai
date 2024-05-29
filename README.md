@@ -15,3 +15,5 @@ To put into practice everything I’ve learned about HTML and CSS over the cours
 - The website should be responsive and look good at every screen size with no horizontal scrollbars.
 - Each page should have a unique 'meta name="description"', 'title', 'h1'.
 - The site should be WCAG compliant, and accessibility should be taken into account.
+
+## test
