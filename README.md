@@ -32,3 +32,25 @@ An online shop selling men's and women’s rain jackets. They are designed for a
 
 - HTML
 - CSS
+
+## Getting Started
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/NoroffFEU/html-css-course-assignment-Hikari.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
