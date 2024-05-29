@@ -5,6 +5,7 @@
 ## Description
 
 Goal:
+
 To put into practice everything I’ve learned about HTML and CSS over the course by bringing my design alive.
 
 Brief:
